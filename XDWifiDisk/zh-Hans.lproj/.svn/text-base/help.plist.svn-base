@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>a</key>
+	<array>
+		<string>产品简介</string>
+		<string>小贴士</string>
+	</array>
+	<key>b</key>
+	<array>
+		<string>总述</string>
+		<string>Mac OS</string>
+		<string>Windows</string>
+	</array>
+	<key>c</key>
+	<array>
+		<string>如果喜欢网络硬盘，请点击为我们评分</string>
+	</array>
+</dict>
+</plist>

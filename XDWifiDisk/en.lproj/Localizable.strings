@@ -1,0 +1,310 @@
+/* 
+ Localizable.strings
+ ASVirtualHardDisk
+ 
+ Created by dai yunxing on 11-10-10.
+ Copyright 2011年 AlphaStudio. All rights reserved.
+ */
+
+//for time
+"TimeFormat" = "MM/dd/yyyy hh:mm:ss";
+
+//ASPreferencesViewController.m
+"Preferences" = "Preferences";
+"Drive Info" = "Drive Info";
+"NickNameTitle" = "NickNameTitle";
+"Home" = "Home";
+"Total Space" = "Total Space";
+"Free Space" = "Free Space";
+
+
+//for ASReadZbar
+"resultText" ="Scanning...";
+"goto" = "Goto";
+"close" = "Close";
+
+//for ASServlet
+"Create Folder Requested" = "Create folder requested.";
+"logPath" = "Delete file requested.";
+"logPathList" = "Delete list requested.";
+"logPathDown" = "File down requseted.";
+"File List Requested" = "File list requested.";
+
+//forASMusicPlayer
+"currentTime" = "currenTime";
+
+//for ASMediaPlayerViewController
+"namefile" = "your file's name";
+"tap" = "Tap to change your file's name";
+"cancel" = "Cancel";
+"use" = "Use";
+
+//for ASWebView
+"noweb" = "No web to draw!";
+"Down False" = "Down False";
+"Down Ok" = "Down Ok";
+"Down Suspend" = "Down Suspend";
+"HomePage" = "http://www.google.com";
+
+//for ASStrategy
+"wait" = "Waiting...";
+
+//for ASZip
+"entries in the zip file" = "entries in the zip file";
+"failed" = "Failed";
+"error" = "Error occurs.";
+"errorfile" = "Error occurs while getting file info.";
+"readfailed" = "Failed to reading zip file.";
+"set" = "Failed to set attributes.";
+
+//for viewcontroller
+"notopen" = "Can not open this file!";
+"save" = "Save";
+"HttpAddress" = "Connect to the device via:";
+"Real img switched" = "Real img switched";
+"Setting done" = "Setting done";
+"quarterCWPressed" = "quarterCWPressed";
+"quarterCCWPressed" = "quarterCCWPressed";
+"halfPressed" = "halfPressed";
+"The file has been modified.\n\tDo you want to save the file?" = "The file has been modified.\n\tDo you want to save the file?";
+"Can not open this file!" = "Can not open this file!";
+"Exist homonymic file,\nDo want to cover it?" = "Exist homonymic file.\nDo you want to cover it?";
+"YES" = "YES";
+"No directory contains." = "No directory contains.";
+"Ok, I Know." = "Ok, I Know.";
+"Status :" = "Status :";
+"Dashboard" = "Dashboard";
+"Can not open the file!" = "Can not open the file!";
+"Download List" = "Download List";
+"Setting" = "Settings";
+
+
+//for ASFileAttributeViewontroller
+"Location :" = "Location :";
+"FileName :" = "FileName :";
+"Type       :" = "Type       :";
+"Size         :" = "Size         :";
+"Create     :" = "Create     :";
+"Moditify   :" = "Moditify   :";
+"Owner      :" = "Owner      :";
+"File Attribute List" = "File Attribute List";
+"Unkonw" = "Unkonw";
+"directory" = "directory";
+
+//for ASMainViewController
+"Dashboard" = "Dashboard";
+"Status :" = "Status";
+"Connect by :" = "Connect by :";
+"FtpAddress" = "or";
+"URL:" = "URL:";
+"No Wi-Fi available." = "No available Wi-Fi.";
+"FTP" = "FTP";
+"Local Files" = "Local Files";
+"Server off" = "Wi-Fi Server Unavailable";
+"Service has been shut down!" = "Service has been shut down!";
+"Unable to get the address, please check the network connection!" = "Unable to get the address, please check the network connection!";
+"Server on" = "Wi-Fi Server Running";
+"Touch" = "Tap";
+"ToOpenServer" = "To Launch The Server";
+"CheckOut" = "Please check out your network.";
+
+"Connection address:" = "Connection address:";
+"httpserveradd" = "Http Server Address：";
+"ftpserveradd" = "Ftp Server Address：";
+
+
+//for ASPreferencesViewController
+"Preferences" = "Preferences";
+"Drive Info" = "Drive Info";
+"NickNameTitle" = "NickName:";
+"Total Space" = "Total Space";
+"Free Space" = "Free Space ";
+
+//for ASSettingViewController
+"Server" = "Server";
+"Real img" = "Thumbnail";
+"Show path extension" = "Show Extension";
+"About Me" = "About Me";
+"Current Skin" = "Current Skin";
+"Change Skin" = "Change Skin";
+
+//for navigation
+"Back" = "Back";
+"Close" = "Close";
+"Done" = "Done";
+//"Delete" = "Delete";
+"Edit" = "Edit";
+
+//for root directory
+"Local" = "Local";
+
+//for ASHelpViewController
+"Help" = "Help";
+"Introduction" = "Introduction";
+"General" = "General";
+"Tip" = "Tips";
+"Mac OS" = "Mac OS";
+"Windows" = "Windows";
+
+
+"IntroductionText" = "introduction_e.html";
+"ConnectingText" = "connecting_e.html";
+"TipsText" ="tips_e.html";
+"TipsText_iPad" ="tips_e_iPad.html";
+"MacText" = "mac_e.html";
+"WindowsText" = "windows_e.html";
+"My documents 1.4 ©2012 AlphaStudio. All rights reserved." = "My documents 1.4 ©2012 AlphaStudio. All rights reserved.";
+
+//for ASFileListViewCintroller editing tool bar
+"E-mail" = "E-mail";
+
+//for send mail
+"Please make sure you can send eMail." = "Please make sure you can send E-mail.";
+"From My Documents" = "From My Documents";
+"EMailBody" = "<br/><br/><br/><br/><br/>Welcome to use \"My Documents\" application, the best documents sharing, reading tool on the iOS device, you can get it by: <a href='http://itunes.apple.com/cn/app/my-documents/id484338449?mt=8'>http://itunes.apple.com/cn/app/my-documents/id484338449?mt=8</a>";
+
+//for ASFileListViewZipLargeFile
+"File is too large" = "File is too large.";
+"Ok, I know." = "Ok, I know.";
+
+//for ASFileListViewController
+"Warning:" = "Warning:";
+"I Will" = "I will.";
+//"Edit" = "Edit";
+//"Done" = "Done";
+"Selected All" = "Selected All";
+"Deselected All" = "Deselected All";
+
+
+//for ASFileListVoewController -- delete file
+//"Warning:" = "Warning:";
+"Are you sure to delete the files?" = "Are you sure to delete the files?";
+"delete" = "Delete";
+"cancel" = "Cancel";
+
+//for ASFileListViewController -- rename
+"Existed name, try another, please" = "Existed name, try another, please";
+
+//for ASFileListViewController -- file operator
+"Delete" = "Delete";
+"Copy" = "Copy";
+"Move" = "Move";
+"Home" = "Home";
+"Cancel" = "Cancel";
+"Zip" = "Zip";
+
+//for ASSearchViewControlelr
+"Result List" = "Result List";
+"Sorry, no files matched." = "Sorry, no files matched.";
+"Ok, I know." = "Ok, I know.";
+"Warning" = "Warning";
+
+//for ASFileOperatorViewController
+"Please choose some files." = "Please choose some files.";
+
+
+
+
+//modify by suzhaoyang
+//date 11.14
+"actionSheetCancelTitle" = "Cancel";
+"actionSheetAddBookmarkTitle" = "AddBookmark";
+"actionSheetSaveCurrentPageTitle" = "SaveCurrentPageTitle";
+"sctionSheetPrintTitle" = "Print";
+"webSheetCancel" = "Cancel";
+"webSheetOpenLink" = "OpenLink";
+"webSheetDownLoadLink" = "DownLoadLink";
+"webSheetSavePicture" = "SavePicture";
+"webSheetSaveBookMark" = "SaveBookMark";
+"downLoadCleanButton" = "Clean";
+"webViewTittle" = "web";
+"bookmarkListTittle" = "BookmarkList";
+"webViewTittle" = "web";
+"bookmarkListTittle" = "BookmarkList";
+"downLoadStatuLabelFail" = "Download failed";
+"downLoadStatuLabelSucceed" = "Download succeed";
+"downLoadStatuLabelStop" = "Download stop";
+
+//for zbar Code
+"This is the Bar Code" = "This is the Bar Code";
+//"Goto" = "Goto";
+
+//for recording
+"Recorder" = "Recorder";
+"Use" = "Use";
+"your file's name" = "your file's name";
+"Tap to change your file's name"= "Tap to change your file's name";
+
+//for howToUseFile
+"howToUseFileName" = "english.pdf";
+"howToUseFileName_iPad" = "English_help.pdf";
+
+//for webView
+"Message" = "Message";
+
+//for webPage
+"WebServerWebPage" = "/Library/webPage/webEn/";
+
+//for sectionView
+"iFilesBox" = "My Documents";
+"connecting" = "connecting";
+"doYouLikeIt" = "Do you like it?";
+
+//for settingView
+"settingHelp" = "When the thumbnail is on, pictures will be showed on the form of the thumbnail in the catalog.\nBecause of the processor of your iPhone/iPod touch, when loading the thumbnail, it maybe not fluent to slide the catalog. \nWe are sorry for the inconvenience through your browsing.\n\n";
+
+//for scanView
+"NoApp" = "No application can open the file.";
+
+//for ASEdtingStatus
+"deletebutton" = "e1_delete.png";
+"copybutton" = "e1_copy.png";
+"zipbutton" = "e1_zip.png";
+"emailbutton" = "e1_email.png";
+"movebutton" = "e1_move.png";
+"savebutton" = "e1_save.png";
+"sharebutton" = "e1_share.png";
+
+"vdeletebutton" = "e2_delete.png";
+"vcopybutton" = "e2_copy.png";
+"vzipbutton" = "e2_zip.png";
+"vemailbutton" = "e2_email.png";
+"vmovebutton" = "e2_move.png";
+"vsavebutton" = "e2_save.png";
+"vsharebutton" = "e2_share.png";
+
+//for iPad mainViewController
+"Places" = "Places";
+"SearchFor" = "Search For";
+
+//for iPad pictureViewController
+"Image written to photo album" = "Saved to the photos successfully.";
+"Error writing to photo album:" = "Failed to save :";
+"messagetip" = "Message";
+
+//for downloadList
+"No such file" = "No such file, it may be deleted or renamed.";
+"UnZipDone" = "Unzip done";
+"The url is in download list" = "The url is in the downlad list.";
+
+//for server name
+"serverName_HOME" = "Home";
+
+//for Bluetooth
+"Peers" = "Peers";
+"Connecting..." = "Connecting...";
+"Connecting failure!" = "Connecting failure!";
+"Receive a file, accept or not?" = "Receive a file, accept or not?";
+"Bluetooth unexpected quit!" = "Bluetooth unexpected quit!";
+"Receiving..." = "Receiving...";
+"Successfully received!" = "Successfully received!";
+"Receive failed!" = "Receive failed!";
+"Wait for accept file..." = "Wait for accept file...";
+"Try to send files failed!" = "Try to send files failed!";
+"Sending..." = "Sending...";
+"Sent successfully!" = "Sent successfully!";
+"sending fails!" = "sending fails!";
+"Bluetooth unavilable!" = "Bluetooth unavilable!";
+
+//for unrar
+"The file has been destroyed, was unable to decompress!" = "The file has been destroyed, was unable to decompress!";

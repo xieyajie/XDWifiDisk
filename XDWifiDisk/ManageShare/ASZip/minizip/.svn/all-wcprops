@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ASVirtualHardDisk/!svn/ver/1311/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip
+END
+ioapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ASVirtualHardDisk/!svn/ver/1222/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/ioapi.c
+END
+zip.c
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ASVirtualHardDisk/!svn/ver/1311/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/zip.c
+END
+unzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ASVirtualHardDisk/!svn/ver/1222/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/unzip.c
+END
+crypt.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ASVirtualHardDisk/!svn/ver/1222/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/crypt.h
+END
+ioapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ASVirtualHardDisk/!svn/ver/1222/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/ioapi.h
+END
+mztools.c
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ASVirtualHardDisk/!svn/ver/1222/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/mztools.c
+END
+zip.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ASVirtualHardDisk/!svn/ver/1222/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/zip.h
+END
+unzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ASVirtualHardDisk/!svn/ver/1222/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/unzip.h
+END
+mztools.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ASVirtualHardDisk/!svn/ver/1222/trunk/ASVirtualHardDisk_Universal/ASVirtualHardDisk_Universal/share/ASZip/minizip/mztools.h
+END

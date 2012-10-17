@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC66515162EE5A00058567B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC66514162EE5A00058567B /* UIKit.framework */; };
+		3AC66517162EE5A00058567B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC66516162EE5A00058567B /* Foundation.framework */; };
+		3AC66519162EE5A00058567B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC66518162EE5A00058567B /* CoreGraphics.framework */; };
+		3AC6651F162EE5A00058567B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6651D162EE5A00058567B /* InfoPlist.strings */; };
+		3AC66521162EE5A00058567B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66520162EE5A00058567B /* main.m */; };
+		3AC66525162EE5A00058567B /* XDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66524162EE5A00058567B /* XDAppDelegate.m */; };
+		3AC66528162EE5A00058567B /* XDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66527162EE5A00058567B /* XDViewController.m */; };
+		3AC6652B162EE5A00058567B /* XDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AC66529162EE5A00058567B /* XDViewController_iPhone.xib */; };
+		3AC6652E162EE5A00058567B /* XDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6652C162EE5A00058567B /* XDViewController_iPad.xib */; };
+		3AC6657F162EE6EA0058567B /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66536162EE6EA0058567B /* AsyncSocket.m */; };
+		3AC66580162EE6EA0058567B /* FtpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66538162EE6EA0058567B /* FtpConnection.m */; };
+		3AC66581162EE6EA0058567B /* FtpDataConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6653A162EE6EA0058567B /* FtpDataConnection.m */; };
+		3AC66582162EE6EA0058567B /* FtpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6653D162EE6EA0058567B /* FtpServer.m */; };
+		3AC66583162EE6EA0058567B /* list.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6653F162EE6EA0058567B /* list.m */; };
+		3AC66584162EE6EA0058567B /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66541162EE6EA0058567B /* NetworkController.m */; };
+		3AC66585162EE6EA0058567B /* ASClipBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66544162EE6EA0058567B /* ASClipBoard.m */; };
+		3AC66586162EE6EA0058567B /* ASDataObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66547162EE6EA0058567B /* ASDataObjectManager.m */; };
+		3AC66587162EE6EA0058567B /* ASDirectoryEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66549162EE6EA0058567B /* ASDirectoryEx.m */; };
+		3AC66588162EE6EA0058567B /* ASFileEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6654C162EE6EA0058567B /* ASFileEx.m */; };
+		3AC66589162EE6EA0058567B /* ASIconContain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6654F162EE6EA0058567B /* ASIconContain.m */; };
+		3AC6658A162EE6EA0058567B /* ASServerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66551162EE6EA0058567B /* ASServerInfo.m */; };
+		3AC6658B162EE6EA0058567B /* ASZipEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66554162EE6EA0058567B /* ASZipEx.m */; };
+		3AC6658C162EE6EA0058567B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66557162EE6EA0058567B /* ioapi.c */; };
+		3AC6658D162EE6EA0058567B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66559162EE6EA0058567B /* mztools.c */; };
+		3AC6658E162EE6EA0058567B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6655B162EE6EA0058567B /* unzip.c */; };
+		3AC6658F162EE6EA0058567B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6655D162EE6EA0058567B /* zip.c */; };
+		3AC66590162EE6EA0058567B /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66560162EE6EA0058567B /* ZipArchive.mm */; };
+		3AC66591162EE6EA0058567B /* ASCreateFolderServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66564162EE6EA0058567B /* ASCreateFolderServlet.m */; };
+		3AC66592162EE6EA0058567B /* ASDeleteServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66566162EE6EA0058567B /* ASDeleteServlet.m */; };
+		3AC66593162EE6EA0058567B /* ASDownLoadServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66568162EE6EA0058567B /* ASDownLoadServlet.m */; };
+		3AC66594162EE6EA0058567B /* ASFileListServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6656A162EE6EA0058567B /* ASFileListServlet.m */; };
+		3AC66595162EE6EA0058567B /* ASFileListXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6656C162EE6EA0058567B /* ASFileListXML.m */; };
+		3AC66596162EE6EA0058567B /* ASFileSearchServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6656E162EE6EA0058567B /* ASFileSearchServlet.m */; };
+		3AC66597162EE6EA0058567B /* ASUploadServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66570162EE6EA0058567B /* ASUploadServlet.m */; };
+		3AC66598162EE6EA0058567B /* ASWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66572162EE6EA0058567B /* ASWebServer.m */; };
+		3AC66599162EE6EA0058567B /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66574162EE6EA0058567B /* mongoose.c */; };
+		3AC6659A162EE6EA0058567B /* MongooseServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66577162EE6EA0058567B /* MongooseServer.m */; };
+		3AC6659B162EE6EA0058567B /* Servlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC66579162EE6EA0058567B /* Servlet.m */; };
+		3AC6659C162EE6EA0058567B /* ServletRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6657B162EE6EA0058567B /* ServletRequest.m */; };
+		3AC6659D162EE6EA0058567B /* ServletResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6657D162EE6EA0058567B /* ServletResponse.m */; };
+		3AC6659E162EE6EA0058567B /* web.zip in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6657E162EE6EA0058567B /* web.zip */; };
+		3AC665A6162EE70E0058567B /* ftp_commands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6659F162EE70E0058567B /* ftp_commands.plist */; };
+		3AC665A8162EE70E0058567B /* ASDeclare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC665A3162EE70E0058567B /* ASDeclare.m */; };
+		3AC665AF162EE71E0058567B /* help.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AC665AA162EE71E0058567B /* help.plist */; };
+		3AC665B0162EE71E0058567B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AC665AD162EE71E0058567B /* Localizable.strings */; };
+		3AC665B1162EE71E0058567B /* ftp_commands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6659F162EE70E0058567B /* ftp_commands.plist */; };
+		3AC665B3162EE7390058567B /* help.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AC665AA162EE71E0058567B /* help.plist */; };
+		3AC665B9162EEB6A0058567B /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC665B8162EEB6A0058567B /* libzbar.a */; };
+		3AC665C3162EF2600058567B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC665C2162EF2600058567B /* SystemConfiguration.framework */; };
+		3AC665C5162EF2670058567B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC665C4162EF2670058567B /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AC66510162EE5A00058567B /* XDWifiDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDWifiDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC66514162EE5A00058567B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AC66516162EE5A00058567B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AC66518162EE5A00058567B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AC6651C162EE5A00058567B /* XDWifiDisk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XDWifiDisk-Info.plist"; sourceTree = "<group>"; };
+		3AC6651E162EE5A00058567B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AC66520162EE5A00058567B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AC66522162EE5A00058567B /* XDWifiDisk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XDWifiDisk-Prefix.pch"; sourceTree = "<group>"; };
+		3AC66523162EE5A00058567B /* XDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDAppDelegate.h; sourceTree = "<group>"; };
+		3AC66524162EE5A00058567B /* XDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDAppDelegate.m; sourceTree = "<group>"; };
+		3AC66526162EE5A00058567B /* XDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDViewController.h; sourceTree = "<group>"; };
+		3AC66527162EE5A00058567B /* XDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDViewController.m; sourceTree = "<group>"; };
+		3AC6652A162EE5A00058567B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XDViewController_iPhone.xib; sourceTree = "<group>"; };
+		3AC6652D162EE5A00058567B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XDViewController_iPad.xib; sourceTree = "<group>"; };
+		3AC66535162EE6EA0058567B /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		3AC66536162EE6EA0058567B /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		3AC66537162EE6EA0058567B /* FtpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpConnection.h; sourceTree = "<group>"; };
+		3AC66538162EE6EA0058567B /* FtpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FtpConnection.m; sourceTree = "<group>"; };
+		3AC66539162EE6EA0058567B /* FtpDataConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpDataConnection.h; sourceTree = "<group>"; };
+		3AC6653A162EE6EA0058567B /* FtpDataConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FtpDataConnection.m; sourceTree = "<group>"; };
+		3AC6653B162EE6EA0058567B /* FtpDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpDefines.h; sourceTree = "<group>"; };
+		3AC6653C162EE6EA0058567B /* FtpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpServer.h; sourceTree = "<group>"; };
+		3AC6653D162EE6EA0058567B /* FtpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FtpServer.m; sourceTree = "<group>"; };
+		3AC6653E162EE6EA0058567B /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		3AC6653F162EE6EA0058567B /* list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = list.m; sourceTree = "<group>"; };
+		3AC66540162EE6EA0058567B /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		3AC66541162EE6EA0058567B /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		3AC66543162EE6EA0058567B /* ASClipBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASClipBoard.h; sourceTree = "<group>"; };
+		3AC66544162EE6EA0058567B /* ASClipBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASClipBoard.m; sourceTree = "<group>"; };
+		3AC66545162EE6EA0058567B /* ASDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDataObject.h; sourceTree = "<group>"; };
+		3AC66546162EE6EA0058567B /* ASDataObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDataObjectManager.h; sourceTree = "<group>"; };
+		3AC66547162EE6EA0058567B /* ASDataObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDataObjectManager.m; sourceTree = "<group>"; };
+		3AC66548162EE6EA0058567B /* ASDirectoryEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDirectoryEx.h; sourceTree = "<group>"; };
+		3AC66549162EE6EA0058567B /* ASDirectoryEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDirectoryEx.m; sourceTree = "<group>"; };
+		3AC6654A162EE6EA0058567B /* ASFileAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFileAttribute.h; sourceTree = "<group>"; };
+		3AC6654B162EE6EA0058567B /* ASFileEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFileEx.h; sourceTree = "<group>"; };
+		3AC6654C162EE6EA0058567B /* ASFileEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFileEx.m; sourceTree = "<group>"; };
+		3AC6654D162EE6EA0058567B /* ASFileType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFileType.h; sourceTree = "<group>"; };
+		3AC6654E162EE6EA0058567B /* ASIconContain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIconContain.h; sourceTree = "<group>"; };
+		3AC6654F162EE6EA0058567B /* ASIconContain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIconContain.m; sourceTree = "<group>"; };
+		3AC66550162EE6EA0058567B /* ASServerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASServerInfo.h; sourceTree = "<group>"; };
+		3AC66551162EE6EA0058567B /* ASServerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASServerInfo.m; sourceTree = "<group>"; };
+		3AC66553162EE6EA0058567B /* ASZipEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASZipEx.h; sourceTree = "<group>"; };
+		3AC66554162EE6EA0058567B /* ASZipEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASZipEx.m; sourceTree = "<group>"; };
+		3AC66556162EE6EA0058567B /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		3AC66557162EE6EA0058567B /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		3AC66558162EE6EA0058567B /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		3AC66559162EE6EA0058567B /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		3AC6655A162EE6EA0058567B /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		3AC6655B162EE6EA0058567B /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		3AC6655C162EE6EA0058567B /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		3AC6655D162EE6EA0058567B /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		3AC6655E162EE6EA0058567B /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		3AC6655F162EE6EA0058567B /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		3AC66560162EE6EA0058567B /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		3AC66563162EE6EA0058567B /* ASCreateFolderServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCreateFolderServlet.h; sourceTree = "<group>"; };
+		3AC66564162EE6EA0058567B /* ASCreateFolderServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCreateFolderServlet.m; sourceTree = "<group>"; };
+		3AC66565162EE6EA0058567B /* ASDeleteServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDeleteServlet.h; sourceTree = "<group>"; };
+		3AC66566162EE6EA0058567B /* ASDeleteServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDeleteServlet.m; sourceTree = "<group>"; };
+		3AC66567162EE6EA0058567B /* ASDownLoadServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDownLoadServlet.h; sourceTree = "<group>"; };
+		3AC66568162EE6EA0058567B /* ASDownLoadServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDownLoadServlet.m; sourceTree = "<group>"; };
+		3AC66569162EE6EA0058567B /* ASFileListServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFileListServlet.h; sourceTree = "<group>"; };
+		3AC6656A162EE6EA0058567B /* ASFileListServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFileListServlet.m; sourceTree = "<group>"; };
+		3AC6656B162EE6EA0058567B /* ASFileListXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFileListXML.h; sourceTree = "<group>"; };
+		3AC6656C162EE6EA0058567B /* ASFileListXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFileListXML.m; sourceTree = "<group>"; };
+		3AC6656D162EE6EA0058567B /* ASFileSearchServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFileSearchServlet.h; sourceTree = "<group>"; };
+		3AC6656E162EE6EA0058567B /* ASFileSearchServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFileSearchServlet.m; sourceTree = "<group>"; };
+		3AC6656F162EE6EA0058567B /* ASUploadServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUploadServlet.h; sourceTree = "<group>"; };
+		3AC66570162EE6EA0058567B /* ASUploadServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASUploadServlet.m; sourceTree = "<group>"; };
+		3AC66571162EE6EA0058567B /* ASWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWebServer.h; sourceTree = "<group>"; };
+		3AC66572162EE6EA0058567B /* ASWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASWebServer.m; sourceTree = "<group>"; };
+		3AC66574162EE6EA0058567B /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mongoose.c; sourceTree = "<group>"; };
+		3AC66575162EE6EA0058567B /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongoose.h; sourceTree = "<group>"; };
+		3AC66576162EE6EA0058567B /* MongooseServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MongooseServer.h; sourceTree = "<group>"; };
+		3AC66577162EE6EA0058567B /* MongooseServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MongooseServer.m; sourceTree = "<group>"; };
+		3AC66578162EE6EA0058567B /* Servlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Servlet.h; sourceTree = "<group>"; };
+		3AC66579162EE6EA0058567B /* Servlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Servlet.m; sourceTree = "<group>"; };
+		3AC6657A162EE6EA0058567B /* ServletRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServletRequest.h; sourceTree = "<group>"; };
+		3AC6657B162EE6EA0058567B /* ServletRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServletRequest.m; sourceTree = "<group>"; };
+		3AC6657C162EE6EA0058567B /* ServletResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServletResponse.h; sourceTree = "<group>"; };
+		3AC6657D162EE6EA0058567B /* ServletResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServletResponse.m; sourceTree = "<group>"; };
+		3AC6657E162EE6EA0058567B /* web.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = web.zip; sourceTree = "<group>"; };
+		3AC6659F162EE70E0058567B /* ftp_commands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ftp_commands.plist; sourceTree = "<group>"; };
+		3AC665A2162EE70E0058567B /* ASDeclare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDeclare.h; sourceTree = "<group>"; };
+		3AC665A3162EE70E0058567B /* ASDeclare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDeclare.m; sourceTree = "<group>"; };
+		3AC665A4162EE70E0058567B /* ASLocalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLocalDefine.h; sourceTree = "<group>"; };
+		3AC665AB162EE71E0058567B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/help.plist"; sourceTree = "<group>"; };
+		3AC665AC162EE71E0058567B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3AC665AE162EE71E0058567B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3AC665B2162EE7390058567B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3AC665B8162EEB6A0058567B /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = XDWifiDisk/libzbar.a; sourceTree = "<group>"; };
+		3AC665C2162EF2600058567B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3AC665C4162EF2670058567B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC6650D162EE5A00058567B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC665C5162EF2670058567B /* CFNetwork.framework in Frameworks */,
+				3AC665C3162EF2600058567B /* SystemConfiguration.framework in Frameworks */,
+				3AC665B9162EEB6A0058567B /* libzbar.a in Frameworks */,
+				3AC66515162EE5A00058567B /* UIKit.framework in Frameworks */,
+				3AC66517162EE5A00058567B /* Foundation.framework in Frameworks */,
+				3AC66519162EE5A00058567B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC66505162EE5A00058567B = {
+			isa = PBXGroup;
+			children = (
+				3AC6651A162EE5A00058567B /* XDWifiDisk */,
+				3AC66513162EE5A00058567B /* Frameworks */,
+				3AC66511162EE5A00058567B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AC66511162EE5A00058567B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66510162EE5A00058567B /* XDWifiDisk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC66513162EE5A00058567B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AC665B8162EEB6A0058567B /* libzbar.a */,
+				3AC665C4162EF2670058567B /* CFNetwork.framework */,
+				3AC665C2162EF2600058567B /* SystemConfiguration.framework */,
+				3AC66514162EE5A00058567B /* UIKit.framework */,
+				3AC66516162EE5A00058567B /* Foundation.framework */,
+				3AC66518162EE5A00058567B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AC6651A162EE5A00058567B /* XDWifiDisk */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66534162EE6EA0058567B /* FTPServer */,
+				3AC66542162EE6EA0058567B /* ManageShare */,
+				3AC66561162EE6EA0058567B /* WebServer */,
+				3AC66523162EE5A00058567B /* XDAppDelegate.h */,
+				3AC66524162EE5A00058567B /* XDAppDelegate.m */,
+				3AC66526162EE5A00058567B /* XDViewController.h */,
+				3AC66527162EE5A00058567B /* XDViewController.m */,
+				3AC66529162EE5A00058567B /* XDViewController_iPhone.xib */,
+				3AC6652C162EE5A00058567B /* XDViewController_iPad.xib */,
+				3AC6651B162EE5A00058567B /* Supporting Files */,
+			);
+			path = XDWifiDisk;
+			sourceTree = "<group>";
+		};
+		3AC6651B162EE5A00058567B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AC665A1162EE70E0058567B /* Localization */,
+				3AC665AD162EE71E0058567B /* Localizable.strings */,
+				3AC6659F162EE70E0058567B /* ftp_commands.plist */,
+				3AC6651C162EE5A00058567B /* XDWifiDisk-Info.plist */,
+				3AC665AA162EE71E0058567B /* help.plist */,
+				3AC6651D162EE5A00058567B /* InfoPlist.strings */,
+				3AC66520162EE5A00058567B /* main.m */,
+				3AC66522162EE5A00058567B /* XDWifiDisk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AC66534162EE6EA0058567B /* FTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66535162EE6EA0058567B /* AsyncSocket.h */,
+				3AC66536162EE6EA0058567B /* AsyncSocket.m */,
+				3AC66537162EE6EA0058567B /* FtpConnection.h */,
+				3AC66538162EE6EA0058567B /* FtpConnection.m */,
+				3AC66539162EE6EA0058567B /* FtpDataConnection.h */,
+				3AC6653A162EE6EA0058567B /* FtpDataConnection.m */,
+				3AC6653B162EE6EA0058567B /* FtpDefines.h */,
+				3AC6653C162EE6EA0058567B /* FtpServer.h */,
+				3AC6653D162EE6EA0058567B /* FtpServer.m */,
+				3AC6653E162EE6EA0058567B /* list.h */,
+				3AC6653F162EE6EA0058567B /* list.m */,
+				3AC66540162EE6EA0058567B /* NetworkController.h */,
+				3AC66541162EE6EA0058567B /* NetworkController.m */,
+			);
+			path = FTPServer;
+			sourceTree = "<group>";
+		};
+		3AC66542162EE6EA0058567B /* ManageShare */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66543162EE6EA0058567B /* ASClipBoard.h */,
+				3AC66544162EE6EA0058567B /* ASClipBoard.m */,
+				3AC66545162EE6EA0058567B /* ASDataObject.h */,
+				3AC66546162EE6EA0058567B /* ASDataObjectManager.h */,
+				3AC66547162EE6EA0058567B /* ASDataObjectManager.m */,
+				3AC66548162EE6EA0058567B /* ASDirectoryEx.h */,
+				3AC66549162EE6EA0058567B /* ASDirectoryEx.m */,
+				3AC6654A162EE6EA0058567B /* ASFileAttribute.h */,
+				3AC6654B162EE6EA0058567B /* ASFileEx.h */,
+				3AC6654C162EE6EA0058567B /* ASFileEx.m */,
+				3AC6654D162EE6EA0058567B /* ASFileType.h */,
+				3AC6654E162EE6EA0058567B /* ASIconContain.h */,
+				3AC6654F162EE6EA0058567B /* ASIconContain.m */,
+				3AC66550162EE6EA0058567B /* ASServerInfo.h */,
+				3AC66551162EE6EA0058567B /* ASServerInfo.m */,
+				3AC66552162EE6EA0058567B /* ASZip */,
+			);
+			path = ManageShare;
+			sourceTree = "<group>";
+		};
+		3AC66552162EE6EA0058567B /* ASZip */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66553162EE6EA0058567B /* ASZipEx.h */,
+				3AC66554162EE6EA0058567B /* ASZipEx.m */,
+				3AC66555162EE6EA0058567B /* minizip */,
+				3AC6655F162EE6EA0058567B /* ZipArchive.h */,
+				3AC66560162EE6EA0058567B /* ZipArchive.mm */,
+			);
+			path = ASZip;
+			sourceTree = "<group>";
+		};
+		3AC66555162EE6EA0058567B /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66556162EE6EA0058567B /* crypt.h */,
+				3AC66557162EE6EA0058567B /* ioapi.c */,
+				3AC66558162EE6EA0058567B /* ioapi.h */,
+				3AC66559162EE6EA0058567B /* mztools.c */,
+				3AC6655A162EE6EA0058567B /* mztools.h */,
+				3AC6655B162EE6EA0058567B /* unzip.c */,
+				3AC6655C162EE6EA0058567B /* unzip.h */,
+				3AC6655D162EE6EA0058567B /* zip.c */,
+				3AC6655E162EE6EA0058567B /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		3AC66561162EE6EA0058567B /* WebServer */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66562162EE6EA0058567B /* ASServlet */,
+				3AC66571162EE6EA0058567B /* ASWebServer.h */,
+				3AC66572162EE6EA0058567B /* ASWebServer.m */,
+				3AC66573162EE6EA0058567B /* MongooseServer */,
+				3AC6657E162EE6EA0058567B /* web.zip */,
+			);
+			path = WebServer;
+			sourceTree = "<group>";
+		};
+		3AC66562162EE6EA0058567B /* ASServlet */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66563162EE6EA0058567B /* ASCreateFolderServlet.h */,
+				3AC66564162EE6EA0058567B /* ASCreateFolderServlet.m */,
+				3AC66565162EE6EA0058567B /* ASDeleteServlet.h */,
+				3AC66566162EE6EA0058567B /* ASDeleteServlet.m */,
+				3AC66567162EE6EA0058567B /* ASDownLoadServlet.h */,
+				3AC66568162EE6EA0058567B /* ASDownLoadServlet.m */,
+				3AC66569162EE6EA0058567B /* ASFileListServlet.h */,
+				3AC6656A162EE6EA0058567B /* ASFileListServlet.m */,
+				3AC6656B162EE6EA0058567B /* ASFileListXML.h */,
+				3AC6656C162EE6EA0058567B /* ASFileListXML.m */,
+				3AC6656D162EE6EA0058567B /* ASFileSearchServlet.h */,
+				3AC6656E162EE6EA0058567B /* ASFileSearchServlet.m */,
+				3AC6656F162EE6EA0058567B /* ASUploadServlet.h */,
+				3AC66570162EE6EA0058567B /* ASUploadServlet.m */,
+			);
+			path = ASServlet;
+			sourceTree = "<group>";
+		};
+		3AC66573162EE6EA0058567B /* MongooseServer */ = {
+			isa = PBXGroup;
+			children = (
+				3AC66574162EE6EA0058567B /* mongoose.c */,
+				3AC66575162EE6EA0058567B /* mongoose.h */,
+				3AC66576162EE6EA0058567B /* MongooseServer.h */,
+				3AC66577162EE6EA0058567B /* MongooseServer.m */,
+				3AC66578162EE6EA0058567B /* Servlet.h */,
+				3AC66579162EE6EA0058567B /* Servlet.m */,
+				3AC6657A162EE6EA0058567B /* ServletRequest.h */,
+				3AC6657B162EE6EA0058567B /* ServletRequest.m */,
+				3AC6657C162EE6EA0058567B /* ServletResponse.h */,
+				3AC6657D162EE6EA0058567B /* ServletResponse.m */,
+			);
+			path = MongooseServer;
+			sourceTree = "<group>";
+		};
+		3AC665A1162EE70E0058567B /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				3AC665A2162EE70E0058567B /* ASDeclare.h */,
+				3AC665A3162EE70E0058567B /* ASDeclare.m */,
+				3AC665A4162EE70E0058567B /* ASLocalDefine.h */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AC6650F162EE5A00058567B /* XDWifiDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC66531162EE5A00058567B /* Build configuration list for PBXNativeTarget "XDWifiDisk" */;
+			buildPhases = (
+				3AC6650C162EE5A00058567B /* Sources */,
+				3AC6650D162EE5A00058567B /* Frameworks */,
+				3AC6650E162EE5A00058567B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDWifiDisk;
+			productName = XDWifiDisk;
+			productReference = 3AC66510162EE5A00058567B /* XDWifiDisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AC66507162EE5A00058567B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3AC6650A162EE5A00058567B /* Build configuration list for PBXProject "XDWifiDisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 3AC66505162EE5A00058567B;
+			productRefGroup = 3AC66511162EE5A00058567B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AC6650F162EE5A00058567B /* XDWifiDisk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC6650E162EE5A00058567B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6651F162EE5A00058567B /* InfoPlist.strings in Resources */,
+				3AC6652B162EE5A00058567B /* XDViewController_iPhone.xib in Resources */,
+				3AC6652E162EE5A00058567B /* XDViewController_iPad.xib in Resources */,
+				3AC6659E162EE6EA0058567B /* web.zip in Resources */,
+				3AC665A6162EE70E0058567B /* ftp_commands.plist in Resources */,
+				3AC665AF162EE71E0058567B /* help.plist in Resources */,
+				3AC665B0162EE71E0058567B /* Localizable.strings in Resources */,
+				3AC665B1162EE71E0058567B /* ftp_commands.plist in Resources */,
+				3AC665B3162EE7390058567B /* help.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AC6650C162EE5A00058567B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC66521162EE5A00058567B /* main.m in Sources */,
+				3AC66525162EE5A00058567B /* XDAppDelegate.m in Sources */,
+				3AC66528162EE5A00058567B /* XDViewController.m in Sources */,
+				3AC6657F162EE6EA0058567B /* AsyncSocket.m in Sources */,
+				3AC66580162EE6EA0058567B /* FtpConnection.m in Sources */,
+				3AC66581162EE6EA0058567B /* FtpDataConnection.m in Sources */,
+				3AC66582162EE6EA0058567B /* FtpServer.m in Sources */,
+				3AC66583162EE6EA0058567B /* list.m in Sources */,
+				3AC66584162EE6EA0058567B /* NetworkController.m in Sources */,
+				3AC66585162EE6EA0058567B /* ASClipBoard.m in Sources */,
+				3AC66586162EE6EA0058567B /* ASDataObjectManager.m in Sources */,
+				3AC66587162EE6EA0058567B /* ASDirectoryEx.m in Sources */,
+				3AC66588162EE6EA0058567B /* ASFileEx.m in Sources */,
+				3AC66589162EE6EA0058567B /* ASIconContain.m in Sources */,
+				3AC6658A162EE6EA0058567B /* ASServerInfo.m in Sources */,
+				3AC6658B162EE6EA0058567B /* ASZipEx.m in Sources */,
+				3AC6658C162EE6EA0058567B /* ioapi.c in Sources */,
+				3AC6658D162EE6EA0058567B /* mztools.c in Sources */,
+				3AC6658E162EE6EA0058567B /* unzip.c in Sources */,
+				3AC6658F162EE6EA0058567B /* zip.c in Sources */,
+				3AC66590162EE6EA0058567B /* ZipArchive.mm in Sources */,
+				3AC66591162EE6EA0058567B /* ASCreateFolderServlet.m in Sources */,
+				3AC66592162EE6EA0058567B /* ASDeleteServlet.m in Sources */,
+				3AC66593162EE6EA0058567B /* ASDownLoadServlet.m in Sources */,
+				3AC66594162EE6EA0058567B /* ASFileListServlet.m in Sources */,
+				3AC66595162EE6EA0058567B /* ASFileListXML.m in Sources */,
+				3AC66596162EE6EA0058567B /* ASFileSearchServlet.m in Sources */,
+				3AC66597162EE6EA0058567B /* ASUploadServlet.m in Sources */,
+				3AC66598162EE6EA0058567B /* ASWebServer.m in Sources */,
+				3AC66599162EE6EA0058567B /* mongoose.c in Sources */,
+				3AC6659A162EE6EA0058567B /* MongooseServer.m in Sources */,
+				3AC6659B162EE6EA0058567B /* Servlet.m in Sources */,
+				3AC6659C162EE6EA0058567B /* ServletRequest.m in Sources */,
+				3AC6659D162EE6EA0058567B /* ServletResponse.m in Sources */,
+				3AC665A8162EE70E0058567B /* ASDeclare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AC6651D162EE5A00058567B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC6651E162EE5A00058567B /* en */,
+				3AC665AC162EE71E0058567B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AC66529162EE5A00058567B /* XDViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC6652A162EE5A00058567B /* en */,
+			);
+			name = XDViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3AC6652C162EE5A00058567B /* XDViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC6652D162EE5A00058567B /* en */,
+			);
+			name = XDViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		3AC665AA162EE71E0058567B /* help.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC665AB162EE71E0058567B /* zh-Hans */,
+			);
+			name = help.plist;
+			sourceTree = "<group>";
+		};
+		3AC665AD162EE71E0058567B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC665AE162EE71E0058567B /* zh-Hans */,
+				3AC665B2162EE7390058567B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AC6652F162EE5A00058567B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AC66530162EE5A00058567B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC66532162EE5A00058567B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XDWifiDisk/XDWifiDisk-Prefix.pch";
+				INFOPLIST_FILE = "XDWifiDisk/XDWifiDisk-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/XDWifiDisk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AC66533162EE5A00058567B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XDWifiDisk/XDWifiDisk-Prefix.pch";
+				INFOPLIST_FILE = "XDWifiDisk/XDWifiDisk-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/XDWifiDisk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AC6650A162EE5A00058567B /* Build configuration list for PBXProject "XDWifiDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC6652F162EE5A00058567B /* Debug */,
+				3AC66530162EE5A00058567B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC66531162EE5A00058567B /* Build configuration list for PBXNativeTarget "XDWifiDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC66532162EE5A00058567B /* Debug */,
+				3AC66533162EE5A00058567B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AC66507162EE5A00058567B /* Project object */;
+}

@@ -1,0 +1,301 @@
+/* 
+ Localizable.strings
+ ASVirtualHardDisk
+ 
+ Created by dai yunxing on 11-10-10.
+ Copyright 2011年 AlphaStudio. All rights reserved.
+ */
+
+//for time
+"TimeFormat" = "yyyy/MM/dd hh:mm:ss";
+
+//ASPreferencesViewController.m
+"Preferences" = "偏好";
+"Drive Info" = "驱动信息";
+"NickNameTitle" = "NickNameTitle";
+"Home" = "首页";
+"Total Space" = "面积";
+"Free Space" = "自由空间";
+
+//for ASReadZbar
+"resultText" ="扫描中...";
+"goto" = "前往";
+"close" = "关闭";
+
+//for ASServlet
+"Create Folder Requested" = "请求创建文件";
+"logPath" = "删除文件请求";
+"logPathList" = "要求删除列表";
+"logPathDown" = "请求下载";
+"File List Requested" = "请求文件列表";
+//forASMusicPlayer
+"currentTime" = "当前时间";
+
+//for ASMediaPlayerViewController
+"namefile" = "你的文件名";
+"tap" = "轻击去改变文件的名字";
+"cancel" = "删除";
+"use" = "使用";
+
+
+//for ASWebView
+"noweb" = "没有可使用的网";
+"Down False" = "下载失败";
+"Down Ok" = "下载成功";
+"Down Suspend" = "下载暂停";
+"HomePage" = "http://www.baidu.com";
+
+//for ASStrategy
+"wait" = "请等待....";
+
+//for ASZip
+"entries in the zip file" = "个词目在zip文件中";
+"failed" = "失败";
+"error" = "发生错误";
+"errorfile" = "得到文件信息时发成错误";
+"readfailed" = "读取zip文件失败";
+"set" = "压缩失败";
+
+//for viewcontroller
+"notopen" = "无法打开文件";
+"save" = "保存";
+"HttpAddress" = "通过以下地址与该设备连接 :";
+"Real img switched" = "缩略图切换";
+"Setting done" = "设置";
+"quarterCWPressed" = "设置 CW Pressed";
+"quarterCCWPressed" = "设置 CCW Pressed";
+"halfPressed" = "halfPressed";
+"The file has been modified.\n\tDo you want to save the file?" = "文件已被被修改.\n\t是否保存文件";
+"Can not open this file!" = "无法打开文件！";
+"Exist homonymic file,\nDo want to cover it?" = "已存在该文件，\n是否覆盖？";
+"YES" = "是";
+"No directory contains." = "无子目录文件";
+"Ok, I Know." = "好，我知道了。";
+"Status :" = "状态  :";
+"Dashboard" = "仪表盘";
+"Can not open the file!" = "对不起，本文件格式不支持!";
+"Download List" = "下载列表";
+"Setting" = "设置";
+
+//for ASFileAttributeViewontroller
+"Location :" =      "位置         :";
+"FileName :" =      "文件名    :";
+"Type       :" =    "文件类型  :";
+"Size         :" =  "文件大小  :";
+"Create     :" =    "创建日期  :";
+"Moditify   :" =    "修改日期  :";
+"Owner      :" =    "所属人      :";
+"File Attribute List" = "文件属性";
+"Unkonw" = "未知格式";
+"directory" = "文件夹";
+
+//for ASMainViewController
+"Dashboard" = "仪表盘";
+"Status :" = "状态";
+"Connect by :" = "通过以下地址与该设备连接 :";
+"FtpAddress" = "或者";
+"URL:" = "URL:";
+"No Wi-Fi available." = "没有可用的Wi-Fi服务";
+"FTP" = "FTP";
+"Local Files" = "本地文件";
+"Server off" = "Wi-Fi 服务已关闭";
+"Service has been shut down!" = "服务已关闭！";
+"Unable to get the address, please check the network connection!" = "无法获取地址，请检查网络连接!";
+"Server on" = "Wi-Fi 服务已开启";
+"Touch" = "点击";
+"ToOpenServer" = "设置Wi-Fi服务";
+"CheckOut" = "请检查您的网络连接";
+
+"Connection address:" = " 连接地址 ：";
+"httpserveradd" = "Http 连接地址 ：";
+"ftpserveradd" = "Ftp 连接地址 ：";
+//for ASPreferencesViewController
+"Preferences" = "首选项";
+"Drive Info" = "设备信息";
+"NickNameTitle" = "昵称：";
+"Total Space" = "总空间   ";
+"Free Space" =  "可用空间";
+
+//for ASSettingViewController
+"Server" = "服务器";
+"Real img" = "缩略图";
+"Show path extension" = "显示扩展名";
+"About Me" = "关于";
+"Current Skin" = "当前皮肤 ";
+"Change Skin" = "改变皮肤";
+
+//for navigation
+"Back" = "返回";
+"Close" = "关闭";
+"Done" = "完成";
+//"Delete" = "删除";
+"Edit" = "编辑";
+
+//for root directory
+"Local" = "根目录";
+
+//for ASHelpViewController
+"Help" = "帮助";
+
+"Introduction" = "产品简介";
+"General" = "总述";
+"Tip" = "小贴士";
+"Mac OS" = "Mac OS";
+"Windows" = "Windows";
+
+"IntroductionText" = "introduction.html";
+"ConnectingText" = "connecting.html";
+"TipsText" ="tips.html";
+"TipsText_iPad" ="tips_iPad.html";
+"MacText" = "mac.html";
+"WindowsText" = "windows.html";
+"My documents 1.4 ©2012 AlphaStudio. All rights reserved." = "我的文档1.4 ©2012 AlphaStudio。保留所有权利。";
+
+//for ASFileListViewController editing tool bar
+"E-mail" = "发送邮件";
+
+//for send mail
+"Please make sure you can send eMail." = "请确保可以发送邮件。";
+"From My Documents" = "发送自我的文档";
+"EMailBody" = "<br/><br/><br/><br/><br/>欢迎使用“我的文档”应用软件，最佳移动文档分享、阅读工具，下载地址：<a href='http://itunes.apple.com/cn/app/my-documents/id484338449?mt=8'>http://itunes.apple.com/cn/app/my-documents/id484338449?mt=8</a>";
+
+//for ASFileListViewZipLargeFile
+"Ok, I know." = "好的,我知道了";
+"File is too large" = "文件太大.";
+
+//for ASFileListViewController
+"Warning:" = "警告:";
+"I Will" = "好的";
+//"Edit" = "Edit";
+//"Done" = "Done";
+"Selected All" = "全选";
+"Deselected All" = "反选";
+
+
+//for ASFileListVoewController -- delete file
+//"Warning:" = "Warning:";
+"Are you sure to delete the files?" = "确定要删除这些文件吗?";
+"delete" = "删除";
+"cancel" = "取消";
+
+//for ASFileListViewController -- rename 
+"Existed name, try another, please" = "名称已存在,请尝试其他名称.";
+
+//for ASFileListViewController -- file operator
+"Delete" = "删除";
+"Copy" = "拷贝";
+"Move" = "移动";
+"Home" = "根目录";
+"Cancel" = "取消";
+"Zip" = "压缩";
+
+//for ASSearchViewControlelr
+"Result List" = "搜索结果";
+"Sorry, no files matched." = "没有匹配文件";
+"Ok, I know." = "好的,我知道了.";
+"Warning" = "警告";
+
+//for ASFileOperatorViewController
+"Please choose some files." = "请选择一些文件.";
+
+//modify by suzhaoyang
+//date 11.14
+"actionSheetCancelTitle" = "取消";
+"actionSheetAddBookmarkTitle" = "添加书签";
+"actionSheetSaveCurrentPageTitle" = "保存当前页面";
+"sctionSheetPrintTitle" = "打印当前页面";
+"webSheetCancel" = "取消";
+"webSheetOpenLink" = "打开链接";
+"webSheetDownLoadLink" = "下载";
+"webSheetSavePicture" = "保存图片";
+"webSheetSaveBookMark" = "保存书签";
+"downLoadCleanButton" = "清空列表";
+"webViewTittle" = "网页";
+"bookmarkListTittle" = "书签列表";
+"downLoadStatuLabelFail" = "下载失败";
+"downLoadStatuLabelSucceed" = "下载成功";
+"downLoadStatuLabelStop" = "下载暂停";
+
+//for zbar Code
+"This is the Bar Code" = "二维码信息";
+//"Goto" = "前往";
+
+//for recording
+"Recorder" = "录制音频";
+"Use" = "使用";
+"your file's name" = "您的文件名";
+"Tap to change your file's name"= "通过点击重命名您的文件";
+
+//for howToUseFile
+"howToUseFileName" = "chinese.pdf";
+"howToUseFileName_iPad" = "Chinese_help.pdf";
+
+//for webView
+"Message" = "消息";
+
+//for webPage
+"WebServerWebPage" = "/Library/webPage/webCh/";
+
+//for sectionView
+"iFilesBox" = "我的文档";
+"connecting" = "连接";
+"doYouLikeIt" = "喜欢吗？";
+
+//for settingView
+"settingHelp" = "开启缩略图显示时，在目录中，照片将会以缩略图的形式显示出来。\n由于设备处理器的原因，加载缩略图时，目录的滑动有可能会不流畅。\n对您的浏览造成的不便，我们表示抱歉。\n\n";
+
+//for scanView
+"NoApp" = "没有应用可以打开此文件";
+
+//for ASEdtingStatus
+"deletebutton" = "c1_delete.png";
+"copybutton" = "c1_copy.png";
+"zipbutton" = "c1_zip.png";
+"emailbutton" = "c1_email.png";
+"movebutton" = "c1_move.png";
+"savebutton" = "c1_save.png";
+"sharebutton" = "c1_share.png";
+
+"vdeletebutton" = "c2_delete.png";
+"vcopybutton" = "c2_copy.png";
+"vzipbutton" = "c2_zip.png";
+"vemailbutton" = "c2_email.png";
+"vmovebutton" = "c2_move.png";
+"vsavebutton" = "c2_save.png";
+"vsharebutton" = "c2_share.png";
+
+//for iPad mainViewController
+"Places" = "位置";
+"SearchFor" = "搜索";
+
+//for iPad pictureViewController
+"Image written to photo album" = "成功保存至相册";
+"Error writing to photo album:" = "保存失败 ：";
+"messagetip" = "通知";
+
+//for downloadList
+"No such file" = "找不到此文件，它可能已经被删除或重命名";
+"UnZipDone" = "解压完成";
+"The url is in download list" = "URL已经在下载列表中";
+
+//for server name
+"serverName_HOME" = "根目录";
+
+//for Bluetooth
+"Peers" = "可链接设备";
+"Connecting..." = "链接中...";
+"Connecting failure!" = "链接失败!";
+"Receive a file, accept or not?" = "收到一个文件，是否接收?";
+"Bluetooth unexpected quit!" = "蓝牙设备意外退出!";
+"Receiving..." = "接收中...";
+"Successfully received!" = "成功接收!";
+"Receive failed!" = "接收失败!";
+"Wait for accept file..." = "等待接收文件...";
+"Try to send files failed!" = "尝试发送失败!";
+"Sending..." = "发送中...";
+"Sent successfully!" = "发送成功!";
+"sending fails!" = "发送失败!";
+"Bluetooth unavilable!" = "无法获得蓝牙设备!";
+
+//for unrar
+"The file has been destroyed, was unable to decompress!" = "文件已毁坏，无法解压!";

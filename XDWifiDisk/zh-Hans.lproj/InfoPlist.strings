@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  ASVirtualHardDisk
+
+  Created by dai yunxing on 11-10-10.
+  Copyright 2011年 AlphaStudio. All rights reserved.
+*/
+CFBundleDisplayName = "我的文档";
