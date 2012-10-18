@@ -7,6 +7,7 @@
 //
 
 #import "XDViewController.h"
+#import "NetworkController.h"
 
 @interface XDViewController ()
 
@@ -23,6 +24,25 @@
     
     serverInfo = [ASServerInfo singletonServer];
     [self startServer];
+    
+    UILabel *contentFTPLabel = [[UILabel alloc] initWithFrame: CGRectMake(0, 200, self.view.frame.size.width, 200)];
+    contentFTPLabel.backgroundColor = [UIColor redColor];
+    UILabel *contentHTTPLabel = [[UILabel alloc] initWithFrame: CGRectMake(0, 400, self.view.frame.size.width, 200)];
+    contentHTTPLabel.backgroundColor = [UIColor yellowColor];
+    
+    NSString *addr = [NetworkController localWifiIPAddress];
+    if(![addr isEqualToString:@"error"])
+    {
+        contentFTPLabel.text = [NSString stringWithFormat:@"ftp://%@:20000", 
+                                addr];
+        contentHTTPLabel.text = [NSString stringWithFormat:@"http://%@", 
+                                 addr];
+    }
+    [self.view addSubview: contentFTPLabel];
+    [self.view addSubview: contentHTTPLabel];
+    
+    [contentFTPLabel release];
+    [contentHTTPLabel release];
 }
 
 - (void)viewDidUnload

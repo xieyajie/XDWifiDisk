@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A88E0CD16303A6900EDC900 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A88E0CC16303A6900EDC900 /* libz.1.2.5.dylib */; };
+		3A88E0D016303A7500EDC900 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A88E0CF16303A7500EDC900 /* libxml2.2.7.3.dylib */; };
+		3A88E0D216303A9000EDC900 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A88E0D116303A9000EDC900 /* libxml2.dylib */; };
 		3AC66515162EE5A00058567B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC66514162EE5A00058567B /* UIKit.framework */; };
 		3AC66517162EE5A00058567B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC66516162EE5A00058567B /* Foundation.framework */; };
 		3AC66519162EE5A00058567B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC66518162EE5A00058567B /* CoreGraphics.framework */; };
@@ -60,6 +63,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A88E0CC16303A6900EDC900 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		3A88E0CF16303A7500EDC900 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		3A88E0D116303A9000EDC900 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		3AC66510162EE5A00058567B /* XDWifiDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDWifiDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC66514162EE5A00058567B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3AC66516162EE5A00058567B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -160,6 +166,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A88E0D216303A9000EDC900 /* libxml2.dylib in Frameworks */,
+				3A88E0D016303A7500EDC900 /* libxml2.2.7.3.dylib in Frameworks */,
+				3A88E0CD16303A6900EDC900 /* libz.1.2.5.dylib in Frameworks */,
 				3AC665C5162EF2670058567B /* CFNetwork.framework in Frameworks */,
 				3AC665C3162EF2600058567B /* SystemConfiguration.framework in Frameworks */,
 				3AC665B9162EEB6A0058567B /* libzbar.a in Frameworks */,
@@ -192,6 +201,9 @@
 		3AC66513162EE5A00058567B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A88E0D116303A9000EDC900 /* libxml2.dylib */,
+				3A88E0CF16303A7500EDC900 /* libxml2.2.7.3.dylib */,
+				3A88E0CC16303A6900EDC900 /* libz.1.2.5.dylib */,
 				3AC665B8162EEB6A0058567B /* libzbar.a */,
 				3AC665C4162EF2670058567B /* CFNetwork.framework */,
 				3AC665C2162EF2600058567B /* SystemConfiguration.framework */,
@@ -205,15 +217,15 @@
 		3AC6651A162EE5A00058567B /* XDWifiDisk */ = {
 			isa = PBXGroup;
 			children = (
-				3AC66534162EE6EA0058567B /* FTPServer */,
-				3AC66542162EE6EA0058567B /* ManageShare */,
-				3AC66561162EE6EA0058567B /* WebServer */,
 				3AC66523162EE5A00058567B /* XDAppDelegate.h */,
 				3AC66524162EE5A00058567B /* XDAppDelegate.m */,
 				3AC66526162EE5A00058567B /* XDViewController.h */,
 				3AC66527162EE5A00058567B /* XDViewController.m */,
 				3AC66529162EE5A00058567B /* XDViewController_iPhone.xib */,
 				3AC6652C162EE5A00058567B /* XDViewController_iPad.xib */,
+				3AC66534162EE6EA0058567B /* FTPServer */,
+				3AC66542162EE6EA0058567B /* ManageShare */,
+				3AC66561162EE6EA0058567B /* WebServer */,
 				3AC6651B162EE5A00058567B /* Supporting Files */,
 			);
 			path = XDWifiDisk;
@@ -572,6 +584,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XDWifiDisk/XDWifiDisk-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDK_ROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "XDWifiDisk/XDWifiDisk-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -587,6 +600,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XDWifiDisk/XDWifiDisk-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDK_ROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "XDWifiDisk/XDWifiDisk-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,6 +630,7 @@
 				3AC66533162EE5A00058567B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
